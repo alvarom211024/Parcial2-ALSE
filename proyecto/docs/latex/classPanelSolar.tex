@@ -1,0 +1,97 @@
+\doxysection{Panel\+Solar Class Reference}
+\hypertarget{classPanelSolar}{}\label{classPanelSolar}\index{PanelSolar@{PanelSolar}}
+
+
+Representa un panel solar con registro de generación de energía.  
+
+
+
+
+{\ttfamily \#include $<$Panel\+Solar.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPanelSolar_a1b54de62f321422dd5b2d412cb3a20fd}{Panel\+Solar}} (std\+::string id, float eficiencia)
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \doxylink{classPanelSolar}{Panel\+Solar}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classPanelSolar_a9c5c4acdcf55c5e6e4f08763283843db}{registrar\+Generacion}} (float watt\+Hora)
+\begin{DoxyCompactList}\small\item\em Registra la generación de energía. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classPanelSolar_ab357d4c4bc606bffd05f576a58fe51cf}{energia\+Total}} () const
+\begin{DoxyCompactList}\small\item\em Calcula la energía total generada. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classPanelSolar_aaa49c260fa2f544956ef7ca4272f930d}{eficiencia\+Promedio}} () const
+\begin{DoxyCompactList}\small\item\em Calcula la eficiencia promedio. \end{DoxyCompactList}\item 
+\Hypertarget{classPanelSolar_a5ca17eb76624bdb3ba833740dd0a92df}\label{classPanelSolar_a5ca17eb76624bdb3ba833740dd0a92df} 
+std\+::string {\bfseries get\+Id} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el ID del panel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Representa un panel solar con registro de generación de energía. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classPanelSolar_a1b54de62f321422dd5b2d412cb3a20fd}\label{classPanelSolar_a1b54de62f321422dd5b2d412cb3a20fd} 
+\index{PanelSolar@{PanelSolar}!PanelSolar@{PanelSolar}}
+\index{PanelSolar@{PanelSolar}!PanelSolar@{PanelSolar}}
+\doxysubsubsection{\texorpdfstring{PanelSolar()}{PanelSolar()}}
+{\footnotesize\ttfamily Panel\+Solar\+::\+Panel\+Solar (\begin{DoxyParamCaption}\item[{std\+::string}]{id,  }\item[{float}]{eficiencia }\end{DoxyParamCaption})}
+
+
+
+Constructor de la clase \doxylink{classPanelSolar}{Panel\+Solar}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identificador del panel \\
+\hline
+{\em eficiencia} & Eficiencia inicial del panel \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classPanelSolar_aaa49c260fa2f544956ef7ca4272f930d}\label{classPanelSolar_aaa49c260fa2f544956ef7ca4272f930d} 
+\index{PanelSolar@{PanelSolar}!eficienciaPromedio@{eficienciaPromedio}}
+\index{eficienciaPromedio@{eficienciaPromedio}!PanelSolar@{PanelSolar}}
+\doxysubsubsection{\texorpdfstring{eficienciaPromedio()}{eficienciaPromedio()}}
+{\footnotesize\ttfamily float Panel\+Solar\+::eficiencia\+Promedio (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Calcula la eficiencia promedio. 
+
+\begin{DoxyReturn}{Returns}
+Promedio del historial de generación 
+\end{DoxyReturn}
+\Hypertarget{classPanelSolar_ab357d4c4bc606bffd05f576a58fe51cf}\label{classPanelSolar_ab357d4c4bc606bffd05f576a58fe51cf} 
+\index{PanelSolar@{PanelSolar}!energiaTotal@{energiaTotal}}
+\index{energiaTotal@{energiaTotal}!PanelSolar@{PanelSolar}}
+\doxysubsubsection{\texorpdfstring{energiaTotal()}{energiaTotal()}}
+{\footnotesize\ttfamily float Panel\+Solar\+::energia\+Total (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Calcula la energía total generada. 
+
+\begin{DoxyReturn}{Returns}
+Energía total en Wh 
+\end{DoxyReturn}
+\Hypertarget{classPanelSolar_a9c5c4acdcf55c5e6e4f08763283843db}\label{classPanelSolar_a9c5c4acdcf55c5e6e4f08763283843db} 
+\index{PanelSolar@{PanelSolar}!registrarGeneracion@{registrarGeneracion}}
+\index{registrarGeneracion@{registrarGeneracion}!PanelSolar@{PanelSolar}}
+\doxysubsubsection{\texorpdfstring{registrarGeneracion()}{registrarGeneracion()}}
+{\footnotesize\ttfamily void Panel\+Solar\+::registrar\+Generacion (\begin{DoxyParamCaption}\item[{float}]{watt\+Hora }\end{DoxyParamCaption})}
+
+
+
+Registra la generación de energía. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em watt\+Hora} & Cantidad generada en Wh \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/aitom/\+ALSE/proyecto/include/Panel\+Solar.\+h\end{DoxyCompactItemize}
