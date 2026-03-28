@@ -1,0 +1,3 @@
+/home/aitom/ALSE/proyecto/build/CMakeFiles/PanelSolarApp.dir
+/home/aitom/ALSE/proyecto/build/CMakeFiles/edit_cache.dir
+/home/aitom/ALSE/proyecto/build/CMakeFiles/rebuild_cache.dir

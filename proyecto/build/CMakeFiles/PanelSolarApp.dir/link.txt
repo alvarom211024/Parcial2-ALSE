@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/PanelSolarApp.dir/src/main.cpp.o CMakeFiles/PanelSolarApp.dir/src/PanelSolar.cpp.o -o PanelSolarApp 
